@@ -1,9 +1,3 @@
-//
-//  Player.cpp
-//  Proj3
-//
-//  Created by Tristan Ngo  on 5/30/23.
-//
 
 #include "Player.h"
 using namespace std;

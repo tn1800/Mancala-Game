@@ -1,9 +1,3 @@
-//
-//  Side.h
-//  Proj3
-//
-//  Created by Tristan Ngo  on 5/30/23.
-//
 
 #ifndef Side_h
 #define Side_h

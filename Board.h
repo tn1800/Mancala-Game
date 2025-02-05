@@ -1,9 +1,4 @@
 
-//  Board.h
-//  Proj3
-//
-//  Created by Tristan Ngo  on 5/30/23.
-//
 #include "Side.h"
 #ifndef Board_h
 #define Board_h

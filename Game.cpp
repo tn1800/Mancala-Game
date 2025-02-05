@@ -1,9 +1,3 @@
-//
-//  Game.cpp
-//  Proj3
-//
-//  Created by Tristan Ngo  on 5/30/23.
-//
 
 #include "Game.h"
 using namespace std;

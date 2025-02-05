@@ -1,9 +1,4 @@
 
-//  main.cpp
-//  Proj3
-//
-//  Created by Tristan Ngo  on 5/21/23.
-//
 #include "Board.h"
 #include "Game.h"
 #include "Player.h"

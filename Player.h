@@ -1,9 +1,4 @@
-//
-//  Player.h
-//  Proj3
-//
-//  Created by Tristan Ngo  on 5/30/23.
-//
+
 #include "Board.h"
 #include "Side.h"
 #ifndef Player_h
