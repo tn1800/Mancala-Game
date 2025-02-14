@@ -193,7 +193,18 @@ int SmartPlayer :: eval(const Board &b, Side s, int good_hole) const {
             }
         } //this move results in winning, since theres no beans left on side, the rest of the beans go into opponent's pot, and if our side has more then its a good move.
             }
-    
+    if (depth > 0) {
+        int b_o_value = 100000; // Opponent wants to minimize our score
+
+        for (int x = 1; x <= b.holes(); x++) {
+            if (copy.beans(opponent, x) > 0) {
+                int opponent_eval = eval(copy, opponent, x, depth - 1);
+                best_opponent_value = std::min(b_o_value, opponent_eval);
+            }
+        }
+
+        value -= best_opponent_value; 
+    }
     
     return value;
 }
